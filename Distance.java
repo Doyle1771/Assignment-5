@@ -24,7 +24,7 @@ public class Distance {
 	}
 
 	boolean done = false;
-
+//just testing if I can do things to the code
 	while (! done) {
 
 	    String key = keys.get(0);
@@ -55,7 +55,7 @@ public class Distance {
             t.update(s.substring(i, i+k));
         }
     }
-
+//testing again here
     /** Returns the k-tuples distance of the two input strings.
      *
      * @param k the size of the k-tuples (k-grams)
@@ -92,7 +92,7 @@ public class Distance {
 	    distance += Math.pow(x - y, 2.0);
 	    
 	}
-	
+	//one final time
 	return distance;
     }
 
