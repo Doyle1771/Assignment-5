@@ -1,3 +1,6 @@
+//this is the bonus bit so let's leave it for last
+//5 bonus marks though soooooo
+
 import java.util.NoSuchElementException;
 
 /** Implements a linked list. The elements are doubly linked. The list
@@ -79,10 +82,10 @@ public class LinkedList<E> {
      * @param stop the index of the last element of the iteration
      * @return an iterator for this list
      */
-
+//dunno how to define this exception different from the other one
     public Iterator<E> iterator(int stop) {
 
-	throw new UnsupportedOperationException("IMPLEMENT THIS METHOD");
+	throw new UnsupportedOperationException("Operation not supported for this list. Method iterator.");
 	
     }
     
@@ -97,7 +100,7 @@ public class LinkedList<E> {
 
     public Iterator<E> iterator(int start, int stop) {
 
-	throw new UnsupportedOperationException("IMPLEMENT THIS METHOD");
+	throw new UnsupportedOperationException("Operation not supported for this list. Method iterator.");
 	
     }
 
