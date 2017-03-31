@@ -78,20 +78,24 @@ public class LinkedStack<E> implements Stack<E> {
     /** Removes the top element of the stack. The element inserted at
      * the bottom of the stack.
      */
-
+	//not sure best way to go about this
+	//start by poping the top, adding to new temp stack, iterating over remaining stack to add to temp
+	//then replace old stack with temp stack
     public void roll() {
 
-	throw new UnsupportedOperationException("IMPLEMENT THIS METHOD");
+	throw new UnsupportedOperationException("Invalid operation for linked stack. Method roll.");
 
     }
 
     /** Removes the botttom element. The element is inserted on the
      * top of the stack.
      */
-
+	//ok so make new temp stack, iterate from second to end
+	//push first onto temp
+	//replace old with temp
     public void unroll() {
 
-	throw new UnsupportedOperationException("IMPLEMENT THIS METHOD");
+	throw new UnsupportedOperationException("Invalid operation for linked stack. Method unroll.");
 	
     }
 
